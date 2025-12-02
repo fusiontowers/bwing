@@ -1,0 +1,1 @@
+console.log('Fusion Towers B Wing site loaded');
