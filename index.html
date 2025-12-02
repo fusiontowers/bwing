@@ -4,49 +4,583 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fusion Towers B Wing – Housing Society</title>
+  <meta name="description" content="Official portal of Fusion Towers B Wing Housing Society, Pune – announcements, committee, facilities, rules, documents and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="logo-area">
-      <img src="logo.png" class="logo-img"/>
-      <div>
-        <h1>Fusion Towers B Wing</h1>
-        <p>Official Housing Society Portal</p>
-      </div>
+  <div class="page-gradient"></div>
+
+  <!-- Floating Glass Navbar -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <img src="logo.png" alt="Fusion Towers Logo" class="brand-logo" />
+        <div class="brand-text">
+          <span class="brand-title">Fusion Towers B Wing</span>
+          <span class="brand-subtitle">Housing Society • Pune</span>
+        </div>
+      </a>
+
+      <nav class="nav">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#committee">Committee</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#rules">Rules</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="nav-cta">Resident Support</a>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <h2>110 Flats • 13 Members Management Committee</h2>
-      <p>Fusion Towers, Bhoirwadi, Hinjawadi Phase 3, Pune – 411057</p>
+    <!-- Hero -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <div class="hero-chip-row">
+            <span class="hero-chip">110 Flats</span>
+            <span class="hero-chip">13 Member Management Committee</span>
+            <span class="hero-chip gold">Premium Residential Community</span>
+          </div>
+          <h1>Fusion Towers B Wing<br /><span>Luxury Community Living in Hinjewadi Phase 3</span></h1>
+          <p class="hero-subtitle">
+            A well-managed, digitally enabled co-operative housing society in Pune – combining
+            safety, transparency and modern amenities for our residents.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#announcements" class="btn primary">View Important Announcements</a>
+            <a href="#gallery" class="btn ghost">Explore Society & Events</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-label">Total Flats</span>
+              <span class="stat-value">110</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Committee Members</span>
+              <span class="stat-value">13</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Location</span>
+              <span class="stat-value">Hinjewadi Phase 3</span>
+            </div>
+          </div>
+
+          <div class="hero-meta">
+            <p><strong>Address:</strong> Fusion Towers, Nearby Mealange, Bhoirwadi, Hinjewadi Phase 3, Pune – 411057, Maharashtra, India</p>
+            <p><strong>Email:</strong> <a href="mailto:ftmgmtcommitteebbuilding@gmail.com">ftmgmtcommitteebbuilding@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="hero-right reveal delay-1">
+          <div class="hero-image-card">
+            <img src="images/building-1.jpg" alt="Fusion Towers Building View" />
+            <div class="hero-image-overlay">
+              <div>
+                <p class="overlay-label">FUSION TOWERS B WING</p>
+                <p class="overlay-title">Premium Residential Tower</p>
+              </div>
+              <span class="overlay-badge">Pune • Hinjewadi Phase 3</span>
+            </div>
+          </div>
+
+          <div class="hero-mini-grid">
+            <div class="mini-panel">
+              <span class="mini-label">Official Reg. No.</span>
+              <span class="mini-value">PNA/PNA MSI/HSG/(TC)/24487/2023-24</span>
+            </div>
+            <div class="mini-panel">
+              <span class="mini-label">Society Type</span>
+              <span class="mini-value">Co-operative Housing Society Ltd</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="committee">
-      <h2>Managing Committee (13 Members)</h2>
-      <ul>
-        <li>Bhupesh Walde – Chairman</li>
-        <li>Arpit Gupta – Secretary</li>
-        <li>Ashok Baghele – Treasurer</li>
-        <li>Member 4</li>
-        <li>Member 5</li>
-        <li>Member 6</li>
-        <li>Member 7</li>
-        <li>Member 8</li>
-        <li>Member 9</li>
-        <li>Member 10</li>
-        <li>Member 11</li>
-        <li>Member 12</li>
-        <li>Member 13</li>
-      </ul>
+    <!-- Overview / Official Details -->
+    <section id="overview" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Society Overview</h2>
+          <p>A snapshot of Fusion Towers B Wing – structure, governance and registration.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="glass-card reveal">
+            <h3>About Fusion Towers B Wing</h3>
+            <p>
+              Fusion Towers B Wing is a modern residential tower located in Bhoirwadi, Hinjewadi Phase 3, Pune.
+              The society is home to 110 apartments, managed by a 13 member elected Managing Committee and
+              supported by professional security, housekeeping and maintenance teams.
+            </p>
+            <p>
+              We are committed to maintaining a safe, well-governed and community-driven environment with
+              transparent communication and digital-first operations for all members and residents.
+            </p>
+          </div>
+
+          <div class="glass-card reveal delay-1">
+            <h3>Official Registered Details</h3>
+            <p><strong>FUSION TOWERS BUILDING B CO-OPERATIVE HOUSING SOCIETY LTD</strong></p>
+            <p>
+              Reg. No.: PNA/PNA MSI/HSG/(TC)/24487/2023-24<br />
+              S.No. 41/A/5, 41/A/14, 41/A/15, 41/A/16, Plot No. A1,<br />
+              Bhoirwadi, Tal: Mulshi,<br />
+              Pune – 411057, Maharashtra, India
+            </p>
+            <div class="badge-row">
+              <span class="badge muted">Registered Housing Society</span>
+              <span class="badge gold">Located in Hinjewadi IT Hub</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="contact">
-      <h2>Contact Information</h2>
-      <p>Email: ftmgmtcommitteebbuilding@gmail.com</p>
-      <p>Address: Fusion Towers, Nearby Mealange, Bhoirwadi, Hinjewadi Phase 3, Pune – 411057</p>
+    <!-- Announcements -->
+    <section id="announcements" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Important Announcements</h2>
+          <p>Notices, maintenance schedules and events for residents.</p>
+        </div>
+
+        <div class="chip-row" id="announcementFilters">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="maintenance">Maintenance</button>
+          <button class="chip" data-filter="event">Events</button>
+          <button class="chip" data-filter="general">General</button>
+        </div>
+
+        <div class="cards-grid announcements-grid" id="announcementList">
+          <article class="glass-card announcement-card reveal" data-category="maintenance">
+            <div class="card-tag maintenance">Maintenance</div>
+            <h3>Lift Maintenance – 10th Dec 2025</h3>
+            <p class="card-meta">Posted: 01 Dec 2025</p>
+            <p>
+              Routine servicing of B Wing lift is scheduled on <strong>10th Dec 2025</strong> from
+              <strong>10:00 AM to 7:00 PM</strong>. Residents are requested to plan accordingly and use the
+              staircase during this period.
+            </p>
+          </article>
+
+          <article class="glass-card announcement-card reveal delay-1" data-category="maintenance">
+            <div class="card-tag maintenance">Maintenance</div>
+            <h3>Overhead Tank Cleaning – 15th Dec 2025</h3>
+            <p class="card-meta">Posted: 28 Nov 2025</p>
+            <p>
+              Water supply to B Wing will be temporarily shut between <strong>9:00 AM and 3:00 PM</strong>
+              on <strong>15th Dec 2025</strong> for tank cleaning and disinfection.
+            </p>
+          </article>
+
+          <article class="glass-card announcement-card reveal delay-2" data-category="event">
+            <div class="card-tag event">Event</div>
+            <h3>Annual General Meeting – 20th Jan 2026</h3>
+            <p class="card-meta">Posted: 25 Nov 2025</p>
+            <p>
+              AGM for Fusion Towers B Wing will be conducted on <strong>20th Jan 2026</strong> at
+              <strong>11:00 AM</strong> in the clubhouse. All members are requested to attend in person.
+            </p>
+          </article>
+
+          <article class="glass-card announcement-card reveal delay-3" data-category="general">
+            <div class="card-tag general">General</div>
+            <h3>Festival Parking & Noise Guidelines</h3>
+            <p class="card-meta">Posted: 15 Nov 2025</p>
+            <p>
+              During festive events, residents are requested to co-operate with the security team for
+              parking and follow prescribed noise timings as per society rules and local regulations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Committee -->
+    <section id="committee" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Managing Committee (2025–2026)</h2>
+          <p>The elected body overseeing the management and operations of Fusion Towers B Wing.</p>
+        </div>
+
+        <div class="committee-summary glass-card reveal">
+          <div>
+            <p class="summary-label">Total Committee Members</p>
+            <p class="summary-value">13</p>
+          </div>
+          <div>
+            <p class="summary-label">Key Office Bearers</p>
+            <p class="summary-value">Chairman • Secretary • Treasurer</p>
+          </div>
+          <div>
+            <p class="summary-label">Communication</p>
+            <p class="summary-value">Official WhatsApp & Email</p>
+          </div>
+        </div>
+
+        <div class="cards-grid committee-grid">
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">BW</div>
+            <h3>Bhupesh Walde</h3>
+            <p class="role">Chairman</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+
+          <article class="glass-card committee-card reveal delay-1">
+            <div class="avatar-circle">AG</div>
+            <h3>Arpit Gupta</h3>
+            <p class="role">Secretary</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+
+          <article class="glass-card committee-card reveal delay-2">
+            <div class="avatar-circle">AB</div>
+            <h3>Ashok Baghele</h3>
+            <p class="role">Treasurer</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+
+          <!-- 10 additional members as placeholders -->
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 4</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 5</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 6</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 7</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 8</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 9</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 10</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 11</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 12</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+          <article class="glass-card committee-card reveal">
+            <div class="avatar-circle">CM</div>
+            <h3>Committee Member 13</h3>
+            <p class="role">Managing Committee Member</p>
+            <p class="flat">Flat: B-XXXX</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facilities -->
+    <section id="facilities" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Facilities & Amenities</h2>
+          <p>Infrastructure designed to provide convenience, safety and comfort for residents.</p>
+        </div>
+
+        <div class="cards-grid facilities-grid">
+          <article class="glass-card facility-card reveal">
+            <div class="facility-icon">🛡️</div>
+            <h3>24×7 Security & CCTV</h3>
+            <p>Round-the-clock security personnel with CCTV surveillance in key common areas.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-1">
+            <div class="facility-icon">⚡</div>
+            <h3>Power Backup</h3>
+            <p>Backup power for lifts, common areas and critical services for uninterrupted usage.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-2">
+            <div class="facility-icon">🌳</div>
+            <h3>Garden & Walkways</h3>
+            <p>Landscaped areas and seating zones for walks, relaxation and social interaction.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-3">
+            <div class="facility-icon">👧</div>
+            <h3>Children's Play Area</h3>
+            <p>Dedicated and safe play area for children within the society premises.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-4">
+            <div class="facility-icon">🏋️</div>
+            <h3>Clubhouse & Fitness</h3>
+            <p>Indoor space for meetings and events; provision for basic fitness equipment.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-5">
+            <div class="facility-icon">🚗</div>
+            <h3>Resident & Visitor Parking</h3>
+            <p>Designated parking zones with controlled entry for residents and visitors.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-6">
+            <div class="facility-icon">💧</div>
+            <h3>Water Management</h3>
+            <p>Overhead and underground tanks with regular cleaning and maintenance schedule.</p>
+          </article>
+
+          <article class="glass-card facility-card reveal delay-7">
+            <div class="facility-icon">🔥</div>
+            <h3>Fire Safety Systems</h3>
+            <p>Fire safety equipment as per regulations; residents guided through safety norms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Gallery</h2>
+          <p>Glimpses of the society premises and community celebrations.</p>
+        </div>
+
+        <h3 class="subheading">Society Premises</h3>
+        <div class="gallery-grid reveal">
+          <figure class="gallery-item">
+            <img src="images/building-1.jpg" alt="Fusion Towers building view" />
+            <figcaption>Front Elevation</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/building-2.jpg" alt="Fusion Towers night view" />
+            <figcaption>Night View</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/building-3.jpg" alt="Garden and open area" />
+            <figcaption>Garden & Open Area</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="subheading mt-lg">Community Events</h3>
+        <div class="gallery-grid reveal delay-1">
+          <figure class="gallery-item">
+            <img src="images/event-ganpati.jpg" alt="Ganpati celebrations" />
+            <figcaption>Ganpati Celebrations</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/event-diwali.jpg" alt="Diwali decorations" />
+            <figcaption>Diwali Lights & Decoration</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/event-agm.jpg" alt="AGM meeting" />
+            <figcaption>Annual General Meeting</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Documents & Important Links -->
+    <section id="documents" class="section section-alt">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Documents & Important Links</h2>
+          <p>Key documents, formats and external references for housing society governance.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="glass-card docs-card reveal">
+            <h3>Downloadable Documents (Placeholders)</h3>
+            <ul class="doc-list">
+              <li><a href="docs/society-bye-laws.pdf" target="_blank">Society Bye-laws (PDF)</a></li>
+              <li><a href="docs/maintenance-structure.pdf" target="_blank">Maintenance Charge Structure (PDF)</a></li>
+              <li><a href="docs/agm-minutes-2025.pdf" target="_blank">AGM Minutes – 2025 (PDF)</a></li>
+              <li><a href="docs/noc-format.pdf" target="_blank">NOC & Leave & Licence Format (PDF)</a></li>
+              <li><a href="docs/renovation-guidelines.pdf" target="_blank">Interior & Renovation Guidelines (PDF)</a></li>
+              <li><a href="docs/fire-safety-compliance.pdf" target="_blank">Fire Safety Compliance (PDF)</a></li>
+            </ul>
+            <p class="doc-note">
+              These are currently placeholder files. The Managing Committee can replace them with
+              official documents as they are finalised.
+            </p>
+          </div>
+
+          <div class="glass-card links-card reveal delay-1">
+            <h3>Important Government Links</h3>
+            <div class="link-chip-row">
+              <a href="https://housing.maharashtra.gov.in" target="_blank" class="link-chip">Maharashtra Housing Department</a>
+              <a href="https://sahakarayukta.maharashtra.gov.in" target="_blank" class="link-chip">Maharashtra Co-operative Dept</a>
+              <a href="https://mahasahakar.maharashtra.gov.in" target="_blank" class="link-chip">Co-operative Societies Resources</a>
+              <a href="https://conveyance.maharashtra.gov.in" target="_blank" class="link-chip">Deemed Conveyance Portal</a>
+            </div>
+            <p class="doc-note">
+              External links are provided for reference to state-level rules, acts and circulars related
+              to co-operative housing societies in Maharashtra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rules -->
+    <section id="rules" class="section">
+      <div class="container section-inner">
+        <div class="section-header">
+          <h2>Society Rules & Guidelines</h2>
+          <p>Core guidelines to ensure a peaceful, safe and well-maintained living environment.</p>
+        </div>
+
+        <div class="rules-grid">
+          <div class="glass-card rules-block reveal">
+            <h3>General Discipline</h3>
+            <ul>
+              <li>Maintain low noise levels between 10:00 PM and 6:00 AM.</li>
+              <li>Segregate wet and dry waste and handover only to authorised housekeeping staff.</li>
+              <li>Do not park vehicles in non-designated areas or in front of other flats.</li>
+              <li>No storage of inflammable material in parking or common areas.</li>
+              <li>Any commercial activity from flats requires prior written approval from the Managing Committee.</li>
+            </ul>
+          </div>
+
+          <div class="glass-card rules-block reveal delay-1">
+            <h3>Renovation & Interior Work</h3>
+            <ul>
+              <li>Work to be carried out only between 9:00 AM and 6:00 PM (Monday to Saturday).</li>
+              <li>Contractors and workers must be registered at the security gate with valid IDs.</li>
+              <li>No structural changes that impact beams, columns or load-bearing walls are permitted.</li>
+              <li>Lift padding is mandatory for movement of materials and furniture.</li>
+              <li>Debris to be disposed of outside the society premises by the flat owner/contractor.</li>
+            </ul>
+          </div>
+
+          <div class="glass-card rules-block reveal delay-2">
+            <h3>Common Areas & Pets</h3>
+            <ul>
+              <li>Pets must be on leash in common areas and lifts; owners are responsible for cleanliness.</li>
+              <li>No playing of cricket or high-impact sports in parking areas and driveways.</li>
+              <li>Children should be supervised in the play area and should avoid using lifts alone.</li>
+              <li>Do not place personal items permanently in corridors, staircases or lift lobbies.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container section-inner contact-grid">
+        <div class="glass-card contact-card reveal">
+          <h2>Contact & Support</h2>
+          <p>For queries, suggestions or issues, residents can reach out using the details below.</p>
+
+          <div class="contact-block">
+            <h3>Society Office</h3>
+            <p>
+              Fusion Towers – B Wing<br />
+              Nearby Mealange, Bhoirwadi,<br />
+              Hinjewadi Phase 3, Pune – 411057<br />
+              Maharashtra, India
+            </p>
+            <p><strong>Email:</strong> <a href="mailto:ftmgmtcommitteebbuilding@gmail.com">ftmgmtcommitteebbuilding@gmail.com</a></p>
+          </div>
+
+          <div class="contact-block">
+            <h3>Emergency Contacts</h3>
+            <ul>
+              <li>Security Gate: +91-XXXXXXXXXX</li>
+              <li>Fire Brigade: 101</li>
+              <li>Ambulance: 108</li>
+              <li>Nearest Hospital: [Hospital Name & Contact]</li>
+              <li>Lift Vendor / Technician: [Contact]</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="glass-card contact-form-card reveal delay-1">
+          <h3>Send a Message to the Committee</h3>
+          <p class="small">
+            This is a static form. For production use, integrate with email, Google Forms or a backend service.
+          </p>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you. This demo form does not yet submit to a backend.');">
+            <div class="form-field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+              <label for="flat">Flat Number</label>
+              <input type="text" id="flat" placeholder="e.g. B-804" required />
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Write your query, feedback or request..." required></textarea>
+            </div>
+            <button type="submit" class="btn primary full-width">Submit Request</button>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Fusion Towers Building B Co-operative Housing Society Ltd. All rights reserved.</p>
+      <p class="small">
+        Official digital information channel for residents of Fusion Towers B Wing, Bhoirwadi, Hinjewadi Phase 3, Pune.
+      </p>
+    </div>
+  </footer>
+
+  <a href="#home" class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">↑</a>
+
+  <script src="script.js"></script>
 </body>
 </html>
